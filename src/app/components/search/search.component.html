@@ -3,6 +3,6 @@
   <span class="spacer"></span>
   <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
   <mat-form-field class="form-field">
-    <input matInput />
+    <input matInput (input)="onSearch($event.target.value)" />
   </mat-form-field>
 </mat-toolbar>

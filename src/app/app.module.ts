@@ -11,9 +11,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { SearchTextComponent } from './components/search-text/search-text.component';
+import { HighlightSearchPipe } from './pipes/highlight-search.pipe';
 
 @NgModule({
-  declarations: [AppComponent, SearchComponent, SearchTextComponent],
+  declarations: [
+    AppComponent,
+    SearchComponent,
+    SearchTextComponent,
+    HighlightSearchPipe,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
