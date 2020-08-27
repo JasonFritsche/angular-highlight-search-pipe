@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Gene",
+    "species": "cat",
+    "description": "Gene is a great cat, although he does tend to meow a lot when he wants to eat.",
+    "nicknames": ["Gene Ween Simmons", "Genen", "Geneth"]
+  },
+  {
+    "name": "Frito",
+    "species": "dog",
+    "description": "Frito really enjoys his time in the sun. He prefers to snack throughout the day.",
+    "nicknames": ["Little man", "Stinky"]
+  },
+  {
+    "name": "Nancy",
+    "species": "cat",
+    "description": "Unfortunately, Nancy is scared of everything and spends most of her day in hiding.",
+    "nicknames": ["Queen Nancy"]
+  }
+]
