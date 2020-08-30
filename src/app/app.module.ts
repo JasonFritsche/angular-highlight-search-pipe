@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { SearchTextComponent } from './components/search-text/search-text.component';
 import { HighlightSearchPipe } from './pipes/highlight-search.pipe';
+import { ElevationDirective } from './directives/elevation.directive';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HighlightSearchPipe } from './pipes/highlight-search.pipe';
     SearchComponent,
     SearchTextComponent,
     HighlightSearchPipe,
+    ElevationDirective,
   ],
   imports: [
     BrowserModule,
